@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+   - name: path check command execution
+     shell: pwd
+     register: output
+
+   - debug: var=output.stdout
