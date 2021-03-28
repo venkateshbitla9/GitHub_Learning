@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  vars:
+     command: "{{command}}"
+  tasks:
+   - name: command execution
+     shell: '{{command}}'
+     register: output
+
+   - debug: var=output.stdout_lines
