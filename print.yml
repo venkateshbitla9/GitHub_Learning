@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
    - name: Print a message
-     debug: msg="Hi Welcome to ANSIBLE"
+     debug: msg="Hi Welcome to new ANSIBLE"
