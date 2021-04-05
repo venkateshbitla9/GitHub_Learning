@@ -3,5 +3,4 @@
   tasks:
   - name: print a message
     debug:
-            msg: "hello world venkatesh"
-
+            msg: "ansible practice"
